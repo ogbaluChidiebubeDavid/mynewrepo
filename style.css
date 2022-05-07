@@ -13,15 +13,20 @@ body {
   background-color: #fefffe;
 }
 
+.container {
+  max-width: 512px;
+  margin: auto;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.7);
+}
+
 .head-content {
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 32px;
 }
 
 .pics {
   vertical-align: middle;
-  width: 10%;
-  height: 10%;
+  width: 128px;
   border-radius: 50%;
 }
 
